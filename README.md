@@ -12,14 +12,14 @@ along with a detailed info about the employees in a seperated page which you can
 - Circular loading indicator while running the fetch process
 
 ## code explanation
- the code flow is done as the following:-
-  1- fetches data from the api as a string using http get request
-  2- converts the data from string to json Map 
-  3- converts json map to our defined employee class model
-  4- storing each class model after creating its instance in employees list then returning that list
+ the code flow is done as the following:-  
+  1- fetches data from the api as a string using http get request  
+  2- converts the data from string to json Map   
+  3- converts json map to our defined employee class model  
+  4- storing each class model after creating its instance in employees list then returning that list  
   5- steps 1~4 are all in a function which is called in the home page inside another function  which stores the returned list in a list variable local to the home page
-     and that function is called inside an initState Function in order to run once the Ui build method is done building the Ui.
-  6- data is now ready for displaying in listView builder of ListTile per Employee.
+     and that function is called inside an initState Function in order to run once the Ui build method is done building the Ui.  
+  6- data is now ready for displaying in listView builder of ListTile per Employee.  
 
 
 ## Application Screenshots: 
