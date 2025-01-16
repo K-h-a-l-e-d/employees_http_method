@@ -8,7 +8,7 @@ along with a detailed info about the employees in a seperated page which you can
 
 - Displays a list of employees with their Info.
 - Seperate page for for detailed per employee tile
-- Show/Hide button for hiding the employees list
+- Show/Hide button for hiding the employees list(Note: this button will be used to cache data in another Project)  
 - Circular loading indicator while running the fetch process
 
 ## code explanation
